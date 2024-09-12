@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lena.io/static/css/main.98fc7b67.css",
-    "main.js": "/lena.io/static/js/main.e8a6d8d0.js",
+    "main.js": "/lena.io/static/js/main.aed3d76e.js",
     "index.html": "/lena.io/index.html",
     "main.98fc7b67.css.map": "/lena.io/static/css/main.98fc7b67.css.map",
-    "main.e8a6d8d0.js.map": "/lena.io/static/js/main.e8a6d8d0.js.map"
+    "main.aed3d76e.js.map": "/lena.io/static/js/main.aed3d76e.js.map"
   },
   "entrypoints": [
     "static/css/main.98fc7b67.css",
-    "static/js/main.e8a6d8d0.js"
+    "static/js/main.aed3d76e.js"
   ]
 }
