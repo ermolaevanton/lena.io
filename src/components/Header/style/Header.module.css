@@ -1,0 +1,25 @@
+header {
+  margin-top: 20px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 60px;
+  color: #084a6a;
+}
+
+.nav {
+  float: right;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+}
+
+li {
+  margin-left: 10px;
+}/*# sourceMappingURL=Header.module.css.map */

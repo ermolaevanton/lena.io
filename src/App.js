@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes, Router } from 'react-router-dom';
+import { Header } from './components/Header/Header';
+import { MainPage } from './pages/MainPage/MainPage';
+import { AccountPage } from './pages/AccountPage/AccountPage';
+import { Footer } from './components/Footer/Footer';
+import { Contacts } from './pages/Contacts/Contacts';
+import { Courses } from './pages/Courses/Courses';
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <div className='wrapper'>
+        <Header />
+        <main className='main'>
+          <Routes>
+            <Route index element={<MainPage />} />
+            <Route path='account' element={<AccountPage />} />
+            <Route path='courses' element={<Courses />} />
+            <Route path='contacts' element={<Contacts />} />
+            <Route path='*' element={<h1>404 Page not found</h1>} />
+          </Routes >
+        </main>
+      </div>
+      <Footer />
     </div>
   );
 }
 
-export default App;
