@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lena.io/static/css/main.fcce42c6.css",
+    "main.js": "/lena.io/static/js/main.fc27ad4a.js",
+    "index.html": "/lena.io/index.html",
+    "main.fcce42c6.css.map": "/lena.io/static/css/main.fcce42c6.css.map",
+    "main.fc27ad4a.js.map": "/lena.io/static/js/main.fc27ad4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcce42c6.css",
+    "static/js/main.fc27ad4a.js"
+  ]
+}
