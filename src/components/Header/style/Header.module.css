@@ -8,6 +8,10 @@ header {
   color: #084a6a;
 }
 
+.logo:hover {
+  opacity: 0.7;
+}
+
 .nav {
   float: right;
 }

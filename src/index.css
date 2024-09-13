@@ -8,9 +8,8 @@
 body {
   height: 100%;
   background: #fff;
-  color: #222;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 a {
@@ -27,4 +26,10 @@ a {
   width: 1280px;
   margin: 0 auto;
   flex: 1;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
 }

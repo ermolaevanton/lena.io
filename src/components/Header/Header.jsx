@@ -1,11 +1,13 @@
 import classes from "./style/Header.module.css"
 import { NavLink } from "react-router-dom"
+import { Navigation } from "../Navigation/Navigation"
 
 export function Header() {
     return (
         <header>
             <NavLink className={classes.logo} to="/">Logo</NavLink>
-            <nav className={classes.nav}>
+            <Navigation />
+            {/* <nav className={classes.nav}>
                 <ul className={classes.menu}>
                     <li>
                         <NavLink to='courses'>Курсы</NavLink>
@@ -17,7 +19,7 @@ export function Header() {
                         <NavLink to='account'>Личный кабинет</NavLink>
                     </li>
                 </ul>
-            </nav>
+            </nav> */}
         </header>
     )
 }

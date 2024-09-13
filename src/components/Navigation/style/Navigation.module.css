@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* Основные стили для меню */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  float: right;
+  position: relative;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navList a {
+  color: #252424;
+  text-decoration: none;
+}
+
+/* Стили для иконки меню */
+.menuIcon {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #000000;
+  border-radius: 3px;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+  .navList {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .navListOpen {
+    display: flex;
+  }
+  .menuIcon {
+    display: flex;
+  }
+}/*# sourceMappingURL=Navigation.module.css.map */
