@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/lena.io/static/css/main.52fd7510.css",
-    "main.js": "/lena.io/static/js/main.e751082c.js",
+    "main.css": "/lena.io/static/css/main.b1eb75e9.css",
+    "main.js": "/lena.io/static/js/main.fe78c71e.js",
+    "static/media/IMG2_1497.JPG": "/lena.io/static/media/IMG2_1497.a90b12f1382e694042ed.JPG",
     "index.html": "/lena.io/index.html",
-    "main.52fd7510.css.map": "/lena.io/static/css/main.52fd7510.css.map",
-    "main.e751082c.js.map": "/lena.io/static/js/main.e751082c.js.map"
+    "main.b1eb75e9.css.map": "/lena.io/static/css/main.b1eb75e9.css.map",
+    "main.fe78c71e.js.map": "/lena.io/static/js/main.fe78c71e.js.map"
   },
   "entrypoints": [
-    "static/css/main.52fd7510.css",
-    "static/js/main.e751082c.js"
+    "static/css/main.b1eb75e9.css",
+    "static/js/main.fe78c71e.js"
   ]
 }
